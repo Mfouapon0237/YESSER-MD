@@ -49,7 +49,7 @@ async(conn, mek, m,{from, l, quoted, body, isCmd, umarmd, args, q, isGroup, send
 
 try{
 let madeSetting =`
-*[ •  YESSER-MD - SETTINGS‎ • ]*
+*[ •  ASH-MD - SETTINGS‎ • ]*
 *╭┈───────────────•*
 *┊* *🤠 AUTO_READ_STATUS:* ➠ ${config.AUTO_READ_STATUS}
 *┊* *🤠 MODE:* ➠ ${config.MODE} 
@@ -93,7 +93,7 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 let status = `
-*[ •  YESSER-MD - UPTIME ‎ • ]*
+*[ •  ASH-MD - UPTIME ‎ • ]*
 *╭┈───────────────•*
 *│  ◦* *_UPTIME:➠_*
 *│  ◦* ${runtime(process.uptime())}
@@ -110,7 +110,7 @@ let status = `
 *╰┈───────────────•*
 
 *•────────────•⟢*
-> © code by yessertech 
+> © code by ashtech 
 *•────────────•⟢*
 `
 await conn.sendMessage(from,{image:{url:config.ALIVE_IMG},caption:`${status}`},{quoted:mek})
@@ -134,10 +134,10 @@ try{
 let repo =`
 *[       owner info 🤠‎       ]*
 *╭┈───────────────•*
-*│  🤠 YESSER TECH 🤠
+*│  🤠 ASH TECH 🤠
 *╰┈───────────────•*
 
-*[ •  YESSER-MD - REPO ‎ • ]*
+*[ •  ASH-MD - REPO ‎ • ]*
 *╭┈───────────────•*
 *│  ◦* *https://github.com/Yassin994/YESSER-MD*
 *╰┈───────────────•*
@@ -148,7 +148,7 @@ let repo =`
 *╰┈───────────────•*
 
 *•────────────•⟢*
-> © code by yessertech 
+> © code by ashtech 
 *•────────────•⟢*
 `
 await conn.sendMessage(from, { text: repo ,
@@ -163,7 +163,7 @@ await conn.sendMessage(from, { text: repo ,
       serverMessageId: 999
     },
 externalAdReply: { 
-title: 'YESSER-MD',
+title: 'ASH-MD',
 body: `${pushname}`,
 mediaType: 1,
 sourceUrl: "https://github.com/Yassin994/YESSER-MD" ,
